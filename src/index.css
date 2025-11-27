@@ -2,13 +2,35 @@
 
 @font-face {
   font-family: Lausanne-300;
-  src: url(../public/fonts/Lausanne-300.woff2);
+  src: url(/fonts/Lausanne-300.woff2);
 }
 @font-face {
   font-family: Lausanne-500;
-  src: url(../public/fonts/Lausanne-500.woff2);
+  src: url(/fonts/Lausanne-500.woff2);
 }
 
 body{
   background-color: #111;
+}
+.Close-button svg{
+  stroke: #fff;
+  stroke-width: .5  ;
+  transition: stroke 0.3s ease;
+}
+.Close-button:hover svg{
+  stroke: #d3fd50;
+}
+.Menu-button svg{
+  stroke: #000;
+  stroke-width: .5  ;
+  transition: stroke 0.3s ease;
+}
+.Menu-button div{
+  transition: all 0.3s ease;
+  height: 0;
+  top: 0;
+  position: absolute;
+}
+.Menu-button:hover div{
+  height: 100%;
 }
