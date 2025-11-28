@@ -169,7 +169,7 @@ const Navbar = (props) => {
       <div className="topBar">
         <div
           onClick={() => navigate("/")}
-          className=" K72-Logo cursor-pointer absolute p-5 border-2 border-white -mt-2 -ml-2 top-0 left-0"
+          className="bg-black K72-Logo cursor-pointer absolute p-5 border-2 border-white -mt-2 -ml-2 top-0 left-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
