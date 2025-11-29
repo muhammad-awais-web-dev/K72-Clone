@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const BottomContact = () => {
   return (
-    <div className="h-[70vh] flex flex-col justify-between bg-black">
+    <div className="h-[70vh] flex flex-col justify-between text-white font-[Lausanne-500] bg-black">
       <div className=" h-[80vw] w-full flex flex-col md:flex-row justify-between px-3 ">
         <div className="h-full w-full md:w-fit text-[Lausanne-300] text-[8vw] md:text-[4.5vw] leading-[8vw] md:leading-[4.5vw] flex gap-[2vw] md:gap-[.5vw] ">
           <div className=" border-white hover:border-[#d3fd50] h-fit hover:text-[#d3fd50] border-2 w-fit pt-[.4vw] px-[2.25vw] rounded-full transition-all duration-300 cursor-pointer ">

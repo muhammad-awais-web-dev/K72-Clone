@@ -42,15 +42,15 @@ const App = () => {
   return (
     <>
       <Stairs ref={stairsParent} />
-      <div className=" w-screen h-fit fixed top-0 z-50 ">
-        <Navbar displayLocation={displayLocation} />
-      </div>
       <Routes location={displayLocation}>
         <Route path="/" element={<Home />} />
         <Route path="/agence" element={<Agence />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/navbar" element={<Navbar />} />
       </Routes>
+      <div className=" w-screen h-fit fixed top-0 z-100 ">
+        <Navbar displayLocation={displayLocation} />
+      </div>
     </>
   );
 };

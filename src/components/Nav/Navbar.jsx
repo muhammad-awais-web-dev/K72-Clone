@@ -164,7 +164,7 @@ const Navbar = (props) => {
   ];
 
   return (
-    <nav className="navbar h-fit w-screen  relative flex flex-col justify-center items-center">
+    <nav className="navbar h-fit w-screen  relative flex flex-col justify-center items-center z-50">
       <Stairs ref={stairsParent} />
       <div className="topBar">
         <div
