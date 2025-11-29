@@ -11,6 +11,7 @@
 
 body{
   background-color: #111;
+  scroll-behavior: smooth;
 }
 .Close-button svg,.K72-Logo svg{
   stroke: #fff;

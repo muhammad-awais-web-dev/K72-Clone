@@ -252,7 +252,7 @@ const Navbar = (props) => {
         </div>
         <div
           ref={LinksContainerRef}
-          className="font-[Lausanne-500] text-[7vw] text-left whitespace-nowrap h-[50%] w-full flex flex-col justify-center items-center"
+          className="font-[Lausanne-500] md:text-[7vw] text-[13vw] text-left whitespace-nowrap h-[50%] w-full flex flex-col justify-center items-center"
         >
           {navItems.map((item, index) => (
             <>
@@ -279,8 +279,8 @@ const Navbar = (props) => {
                           <div
                             className={`${
                               img == "/images/Nav/sprite.svg"
-                                ? "w-[6vw] h-[2vw] overflow-hidden flex items-center justify-center"
-                                : "w-[16vw] h-[6vw] rounded-full overflow-hidden flex items-center justify-center"
+                                ? "md:w-[4vw] w-[9vw] md:h-[4vw] h-[9vw]  overflow-hidden flex items-center justify-center"
+                                : "md:w-[16vw] w-[23vw] md:h-[6vw] h-[12vw]  rounded-full overflow-hidden flex items-center justify-center"
                             }`}
                           >
                             <img
@@ -288,7 +288,7 @@ const Navbar = (props) => {
                               alt={item.subText}
                               className={`${
                                 img == "/images/Nav/sprite.svg"
-                                  ? "object-contain h-[2vw] w-[2vw]"
+                                  ? "object-contain h-[8vw] w-[8vw]"
                                   : "object-cover"
                               }`}
                             />
